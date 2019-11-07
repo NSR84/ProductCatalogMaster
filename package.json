@@ -1,0 +1,27 @@
+{
+  "name": "product-catalog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js", //npm run dev (raccourci de nodemon)  && pour ajouter plusieurs cmd à la fois
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterAlex95/product-catalog.git"
+  },
+  "keywords": [],
+  "author": "Hugo NEESER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterAlex95/product-catalog/issues"
+  },
+  "homepage": "https://github.com/MisterAlex95/product-catalog#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7"
+  }
+}
